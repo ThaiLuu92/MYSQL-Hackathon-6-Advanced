@@ -144,7 +144,7 @@ function TaskList() {
                           Mark Done
                         </button>
                         <button
-                          className="mark-done"
+                          className="delete-done"
                           onClick={() => deleteTask(t.id)}
                         >
                           Delete
@@ -176,7 +176,7 @@ function TaskList() {
       <td>{format(new Date(ct.deadline), "dd/MM/yyyy")}</td>
       <td>
         <button
-          className="mark-done"
+          className="delete-done"
           onClick={() => deleteTask(ct.id)}
         >
           Delete

@@ -1,0 +1,60 @@
+/* tasks.css */
+
+.UserTaskList {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .heading {
+    color: #333;
+  }
+  
+  .task-list,
+  .completed-task-list {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  
+  
+  .completed-task-list {
+    margin-top: 30px;
+  }
+  
+  .cheading {
+    color: #333;
+  }
+  
